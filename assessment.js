@@ -53,7 +53,7 @@ var responseCreator = function(param){
     colorResponse = "Green is okay";
   }
   else if (param == "red") {
-    colorResponse = "I hear red";
+    colorResponse = "I heart red";
   }
   else {
     colorResponse = "What is your favorite color?";
@@ -74,5 +74,6 @@ function sum(num1) {
 function greeter(name, number) {
     var string = "Hi! I am "+name+" and I am "+number+" years old";
     console.log(string);
+    return string;
 }
 greeter("Harry", 24);
